@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+      "deploy": "gh-pages -d dist",
+    "homepage": "https://Selvamk4306.github.io/Assignment-5-MERN"
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
