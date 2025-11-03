@@ -1,0 +1,3 @@
+- [x] Fix useFetch.js: Add error parameter to catch block, setError(error.message), move setLoad(false) to finally block
+- [x] Fix App.jsx: Change 'loading' to 'load' in destructuring, add return statement in map function, fix img src and alt attributes
+- [ ] Test the app by running it to ensure products display
