@@ -34,7 +34,7 @@ const App = () => {
                 <h2 className="text-lg font-semibold">{product.title}</h2>
                 <p className="text-gray-600">{product.description}</p>
                 <div className="flex item-center justify-between mt-3">
-                  <p className="text-blue-600 text-center text-bold font-semibold">₹{product.price}</p>
+                  <p className="text-blue-600 text-center text-bold font-semibold">${product.price}</p>
                   <h3 className="text-gray-400 text-sm justify-right">⭐{product.rating}</h3>
                 </div>
               </div>
